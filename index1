@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title lang="en">Beauty Zone</title>
+  </head>
+  <body>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <header>
+      <nav>
+        <a href="/">
+          <img src="./logo.svg" alt="Логотип Beauty Zone " />
+        </a>
+        <ul>
+          <li><a class="Navigation" href="#">Про нас</a></li>
+          <li><a class="Navigation" href="#">Чому ми</a></li>
+          <li><a class="Navigation" href="#">Нащі процедури</a></li>
+          <li><a class="Navigation" href="#">Контакти</a></li>
+        </ul>
+        <img src="./Vector.svg" alt="Whats App icon" />
+        <img src="./Vector(1).svg" alt="Facebook icon" />
+        <img src="./Vector(2).svg" alt="Instagram icon" />
+      </nav>
+    </header>
+    <main>
+      <section class="main-section">
+        <p>Косметологічна клініка</p>
+        <h1 class="hero-title" lang="en">Beauty Zone</h1>
+        <button class="button" type="button">Замовити дзвінок</button>
+        <p>Запишись та отримай безкоштовну консультацію нашого косметолога</p>
+      </section>
+
+      <section id="AboutUs-section">
+        <h2>Перевтілюйтесь в <span>Beauty Zone!</span></h2>
+        <p>Наша косметологічна клініка пропонує вам професійні послуги</p>
+        <p>з догляду за шкірою обличчя та тіла.</p>
+
+        <p>B <span>Beauty Zone</span> ми гарантуємо найвищі стандарти якості</p>
+        <p>та приємний сервіс. Наші косметологічні процедури та препарати</p>
+        <p>допоможуть вам підтримувати свою красу та молодість.</p>
+        <p>З нами краса назавжди!</p>
+      </section>
+
+      <section id="WhyUs-section">
+        <h2>Чому люди <span>обирають нас</span></h2>
+        <ul class="no-bullets">
+          <li>
+            <article>
+              <img
+                src="./Vector(3).svg"
+                alt="Логотип: три овали з квадратом всередині"
+              />
+              <p>Всі наші косметологи мають</p>
+              <p>вищу медичну освіту</p>
+              <p>та стаж роботи від 5 років</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img
+                src="./Group46194.svg"
+                alt="Логотип: три флакони з гігієнічними засобами для обличчя"
+              />
+              <p>Використовуємо тільки</p>
+              <p>професійне обладнання та</p>
+              <p>косметику, перевірену часом</p>
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="./Vector(5).svg" alt="Логотип: корона" />
+              <p>Наша мета - підкреслити</p>
+              <p>переваги та приховати</p>
+              <p>недоліки, а не переробити</p>
+              <p></p>
+            </article>
+          </li>
+        </ul>
+      </section>
+
+      <section class="OurProcedures-section">
+        <h2>Наші процедури</h2>
+        <ul>
+          <li>
+            <article>
+              <img
+                src="./процедуры.jpg"
+                alt="Жінці наносять маску на обличчя"
+              />
+            </article>
+          </li>
+          <li>
+            <article>
+              <img
+                src="./процедуры(1).jpg"
+                alt="Жінці роблять ін'єкції в обличчя"
+              />
+            </article>
+          </li>
+          <li>
+            <article>
+              <img src="./процедури(2).jpg" alt="Жінці роблять масаж обличчя" />
+            </article>
+          </li>
+        </ul>
+      </section>
+      <section class="HowToFind us-section">
+        <h2>Як нас знайти</h2>
+        <img src="./карта.jpg" alt=" Карта де можна знайти нас" />
+      </section>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#">Про нас</a></li>
+          <li><a href="#">Чому ми</a></li>
+          <li><a href="#">Наші процедури</a></li>
+          <li><a href="#">Контакти</a></li>
+        </ul>
+      </nav>
+      <address>
+        <ul>
+          <li>
+            <a class="adress-link" href="tel:+380960000007">
+              + 38 (096) 000 00 07</a
+            >
+          </li>
+          <li>
+            <a href="mailto:beautyzone@gmail.com">beautyzone@gmail.com</a>
+          </li>
+          <li>
+            <a
+              href="https://www.bing.com/maps?osid=f8d4c127-bd55-4fb1-895b-5b54470d97f4&cp=50.450885~30.517734&lvl=17&pi=0&v=2&sV=2&form=S00027"
+              >Україна, м. Київ, вул. Тараса Шевченка 5</a
+            >
+          </li>
+
+          <li>
+            <a href="#"><img src="./Vector(6).svg" alt="Whats App icon" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./Vector(7).svg" alt="Facebook icon" /></a>
+          </li>
+          <li>
+            <a href="#"><img src="./Vector(8).svg" alt="Instagram icon" /></a>
+          </li>
+        </ul>
+        <a class="adress-link" href="#" target="_blank"
+          >Політика конфіденційності</a
+        >
+        <p class="adress-copyright">&copy;2022 Дані захищені</p>
+      </address>
+    </footer>
+  </body>
+</html>
